@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPL Match Predictor — Who Will Win?</title>
+  <meta name="description" content="AI-powered IPL match winner predictor using 2008-2024 historical data. Enter two teams to get win probability and detailed team analysis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <!-- ─── Animated background ─────────────────────────────────── -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- ─── Header ───────────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">IPL</span>
+        <div class="logo-text">
+          <span class="logo-title">IPL Predictor</span>
+          <span class="logo-sub">2008 – 2024 · AI Powered</span>
+        </div>
+      </div>
+      <div class="model-badge" id="modelBadge">
+        <span class="badge-dot"></span>
+        <span id="modelAccText">Loading…</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─── Hero section ─────────────────────────────────────────── -->
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">Who Will <span class="gradient-text">Win</span> the Match?</h1>
+      <p class="hero-sub">Select two IPL teams and let our machine-learning model predict the winner based on 1,000+ historical matches.</p>
+    </section>
+
+    <!-- ─── Predictor card ───────────────────────────────────────── -->
+    <section class="predictor-card glass">
+      <!-- VS layout -->
+      <div class="vs-layout">
+        <!-- Team 1 -->
+        <div class="team-panel" id="panel1">
+          <div class="team-label">TEAM 1</div>
+          <div class="team-select-wrap">
+            <select id="team1Select" class="team-select">
+              <option value="">-- Select Team --</option>
+            </select>
+            <div class="select-arrow">▾</div>
+          </div>
+          <div class="team-badge" id="badge1">?</div>
+        </div>
+
+        <!-- VS separator -->
+        <div class="vs-separator">
+          <div class="vs-circle">VS</div>
+          <div class="vs-line"></div>
+        </div>
+
+        <!-- Team 2 -->
+        <div class="team-panel" id="panel2">
+          <div class="team-label">TEAM 2</div>
+          <div class="team-select-wrap">
+            <select id="team2Select" class="team-select">
+              <option value="">-- Select Team --</option>
+            </select>
+            <div class="select-arrow">▾</div>
+          </div>
+          <div class="team-badge" id="badge2">?</div>
+        </div>
+      </div>
+
+      <!-- Optional extras -->
+      <div class="extras-row">
+        <div class="extra-field">
+          <label for="venueSelect">Venue <span class="optional">(optional)</span></label>
+          <select id="venueSelect" class="extra-select">
+            <option value="">Any / Unknown</option>
+          </select>
+        </div>
+        <div class="extra-field">
+          <label for="tossWinnerSelect">Toss Winner <span class="optional">(optional)</span></label>
+          <select id="tossWinnerSelect" class="extra-select">
+            <option value="">Not decided</option>
+          </select>
+        </div>
+        <div class="extra-field">
+          <label for="tossDecisionSelect">Toss Decision <span class="optional">(optional)</span></label>
+          <select id="tossDecisionSelect" class="extra-select">
+            <option value="bat">Bat first</option>
+            <option value="field">Field first</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Predict button -->
+      <button class="predict-btn" id="predictBtn" disabled>
+        <span class="btn-inner">
+          <span class="btn-text">Predict Winner</span>
+          <span class="btn-loader" id="btnLoader"></span>
+        </span>
+      </button>
+    </section>
+
+    <!-- ─── Result section ─────────────────────────────────────── -->
+    <section class="result-section" id="resultSection" style="display:none;">
+
+      <!-- Winner banner -->
+      <div class="winner-banner glass" id="winnerBanner">
+        <div class="confetti-container" id="confetti"></div>
+        <div class="winner-crown">WINNER</div>
+        <div class="winner-label">Predicted Winner</div>
+        <div class="winner-name" id="winnerName">—</div>
+        <div class="winner-prob" id="winnerProb">— % confidence</div>
+      </div>
+
+      <!-- Probability bars -->
+      <div class="prob-bars glass" id="probBars">
+        <div class="prob-row">
+          <span class="prob-team" id="pt1Name">Team 1</span>
+          <div class="prob-bar-bg">
+            <div class="prob-bar bar-t1" id="bar1"></div>
+          </div>
+          <span class="prob-pct" id="pt1Pct">50%</span>
+        </div>
+        <div class="prob-row">
+          <span class="prob-team" id="pt2Name">Team 2</span>
+          <div class="prob-bar-bg">
+            <div class="prob-bar bar-t2" id="bar2"></div>
+          </div>
+          <span class="prob-pct" id="pt2Pct">50%</span>
+        </div>
+      </div>
+
+      <!-- H2H Summary -->
+      <div class="h2h-card glass" id="h2hCard">
+        <h3 class="card-title">Head to Head</h3>
+        <div class="h2h-grid">
+          <div class="h2h-item">
+            <div class="h2h-num" id="h2hT1Wins">—</div>
+            <div class="h2h-lbl" id="h2hT1Name">Team 1</div>
+          </div>
+          <div class="h2h-item center">
+            <div class="h2h-total-lbl">Total</div>
+            <div class="h2h-num" id="h2hTotal">—</div>
+            <div class="h2h-lbl">Matches</div>
+          </div>
+          <div class="h2h-item">
+            <div class="h2h-num" id="h2hT2Wins">—</div>
+            <div class="h2h-lbl" id="h2hT2Name">Team 2</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team analysis panels -->
+      <div class="team-analysis-grid">
+        <div class="team-analysis-card glass" id="analysis1"></div>
+        <div class="team-analysis-card glass" id="analysis2"></div>
+      </div>
+
+      <!-- Charts row -->
+      <div class="charts-row">
+        <div class="chart-card glass">
+          <h3 class="card-title">Win Rate Comparison</h3>
+          <div class="chart-wrapper">
+            <canvas id="winRateChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-card glass">
+          <h3 class="card-title">Avg Score Comparison</h3>
+          <div class="chart-wrapper">
+            <canvas id="avgScoreChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built with IPL data 2008–2024 · Random Forest Classifier</p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

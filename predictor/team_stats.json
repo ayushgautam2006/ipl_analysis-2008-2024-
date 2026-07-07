@@ -1,0 +1,1644 @@
+{
+  "teams": {
+    "Chennai Super Kings": {
+      "matches": 237,
+      "wins": 138,
+      "losses": 99,
+      "win_rate": 0.5823,
+      "seasons": [
+        "2007/08",
+        "2009",
+        "2009/10",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2018",
+        "2019",
+        "2020/21",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 163.0,
+      "top_batters": [
+        {
+          "name": "SK Raina",
+          "runs": 5536
+        },
+        {
+          "name": "MS Dhoni",
+          "runs": 5243
+        },
+        {
+          "name": "F du Plessis",
+          "runs": 4571
+        },
+        {
+          "name": "RA Jadeja",
+          "runs": 2959
+        },
+        {
+          "name": "M Vijay",
+          "runs": 2619
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "DJ Bravo",
+          "wickets": 207
+        },
+        {
+          "name": "R Ashwin",
+          "wickets": 198
+        },
+        {
+          "name": "RA Jadeja",
+          "wickets": 169
+        },
+        {
+          "name": "MM Sharma",
+          "wickets": 147
+        },
+        {
+          "name": "SN Thakur",
+          "wickets": 100
+        }
+      ],
+      "best_venues": {
+        "MA Chidambaram Stadium, Chepauk": {
+          "played": 47,
+          "wins": 33
+        },
+        "MA Chidambaram Stadium, Chepauk, Chennai": {
+          "played": 15,
+          "wins": 10
+        },
+        "Dubai International Cricket Stadium": {
+          "played": 14,
+          "wins": 9
+        }
+      }
+    },
+    "Deccan Chargers": {
+      "matches": 75,
+      "wins": 29,
+      "losses": 46,
+      "win_rate": 0.3867,
+      "seasons": [
+        "2007/08",
+        "2009",
+        "2009/10",
+        "2011",
+        "2012"
+      ],
+      "avg_score": 152.8,
+      "top_batters": [
+        {
+          "name": "AC Gilchrist",
+          "runs": 2069
+        },
+        {
+          "name": "A Symonds",
+          "runs": 974
+        },
+        {
+          "name": "CL White",
+          "runs": 971
+        },
+        {
+          "name": "HH Gibbs",
+          "runs": 886
+        },
+        {
+          "name": "TL Suman",
+          "runs": 676
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "RP Singh",
+          "wickets": 100
+        },
+        {
+          "name": "PP Ojha",
+          "wickets": 99
+        },
+        {
+          "name": "DT Christian",
+          "wickets": 40
+        },
+        {
+          "name": "Harmeet Singh",
+          "wickets": 31
+        },
+        {
+          "name": "A Symonds",
+          "wickets": 23
+        }
+      ],
+      "best_venues": {
+        "Barabati Stadium": {
+          "played": 4,
+          "wins": 3
+        },
+        "Rajiv Gandhi International Stadium, Uppal": {
+          "played": 18,
+          "wins": 3
+        },
+        "Dr DY Patil Sports Academy": {
+          "played": 6,
+          "wins": 2
+        }
+      }
+    },
+    "Delhi Capitals": {
+      "matches": 250,
+      "wins": 115,
+      "losses": 135,
+      "win_rate": 0.46,
+      "seasons": [
+        "2007/08",
+        "2009",
+        "2009/10",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020/21",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 155.5,
+      "top_batters": [
+        {
+          "name": "RR Pant",
+          "runs": 3297
+        },
+        {
+          "name": "SS Iyer",
+          "runs": 3131
+        },
+        {
+          "name": "V Sehwag",
+          "runs": 2728
+        },
+        {
+          "name": "JP Duminy",
+          "runs": 2029
+        },
+        {
+          "name": "PP Shaw",
+          "runs": 1892
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "A Mishra",
+          "wickets": 183
+        },
+        {
+          "name": "AR Patel",
+          "wickets": 131
+        },
+        {
+          "name": "K Rabada",
+          "wickets": 126
+        },
+        {
+          "name": "A Nehra",
+          "wickets": 121
+        },
+        {
+          "name": "CH Morris",
+          "wickets": 107
+        }
+      ],
+      "best_venues": {
+        "Feroz Shah Kotla": {
+          "played": 55,
+          "wins": 23
+        },
+        "Arun Jaitley Stadium": {
+          "played": 14,
+          "wins": 8
+        },
+        "Dubai International Cricket Stadium": {
+          "played": 15,
+          "wins": 7
+        }
+      }
+    },
+    "Gujarat Lions": {
+      "matches": 30,
+      "wins": 13,
+      "losses": 17,
+      "win_rate": 0.4333,
+      "seasons": [
+        "2016",
+        "2017"
+      ],
+      "avg_score": 162.1,
+      "top_batters": [
+        {
+          "name": "AJ Finch",
+          "runs": 2092
+        },
+        {
+          "name": "AJ Tye",
+          "runs": 91
+        },
+        {
+          "name": "Basil Thampi",
+          "runs": 32
+        },
+        {
+          "name": "ER Dwivedi",
+          "runs": 24
+        },
+        {
+          "name": "Ankit Soni",
+          "runs": 7
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "DR Smith",
+          "wickets": 27
+        },
+        {
+          "name": "Basil Thampi",
+          "wickets": 26
+        },
+        {
+          "name": "S Kaushik",
+          "wickets": 6
+        },
+        {
+          "name": "Ankit Soni",
+          "wickets": 4
+        },
+        {
+          "name": "NB Singh",
+          "wickets": 1
+        }
+      ],
+      "best_venues": {
+        "Saurashtra Cricket Association Stadium": {
+          "played": 10,
+          "wins": 3
+        },
+        "Eden Gardens": {
+          "played": 2,
+          "wins": 2
+        },
+        "Green Park": {
+          "played": 4,
+          "wins": 2
+        }
+      }
+    },
+    "Gujarat Titans": {
+      "matches": 45,
+      "wins": 28,
+      "losses": 17,
+      "win_rate": 0.6222,
+      "seasons": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 172.4,
+      "top_batters": [
+        {
+          "name": "Shubman Gill",
+          "runs": 3216
+        },
+        {
+          "name": "B Sai Sudharsan",
+          "runs": 1034
+        },
+        {
+          "name": "R Tewatia",
+          "runs": 1013
+        },
+        {
+          "name": "Rashid Khan",
+          "runs": 545
+        },
+        {
+          "name": "A Manohar",
+          "runs": 231
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "Noor Ahmad",
+          "wickets": 24
+        },
+        {
+          "name": "AS Joseph",
+          "wickets": 22
+        },
+        {
+          "name": "J Little",
+          "wickets": 13
+        },
+        {
+          "name": "R Sai Kishore",
+          "wickets": 13
+        },
+        {
+          "name": "DG Nalkande",
+          "wickets": 6
+        }
+      ],
+      "best_venues": {
+        "Narendra Modi Stadium, Ahmedabad": {
+          "played": 16,
+          "wins": 9
+        },
+        "Maharashtra Cricket Association Stadium, Pune": {
+          "played": 3,
+          "wins": 3
+        },
+        "Wankhede Stadium, Mumbai": {
+          "played": 5,
+          "wins": 3
+        }
+      }
+    },
+    "Kochi Tuskers Kerala": {
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "win_rate": 0.4286,
+      "seasons": [
+        "2011"
+      ],
+      "avg_score": 135.8,
+      "top_batters": [
+        {
+          "name": "M Klinger",
+          "runs": 73
+        },
+        {
+          "name": "RV Gomez",
+          "runs": 50
+        },
+        {
+          "name": "Y Gnaneswara Rao",
+          "runs": 19
+        },
+        {
+          "name": "P Parameswaran",
+          "runs": 1
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "P Parameswaran",
+          "wickets": 9
+        },
+        {
+          "name": "RV Gomez",
+          "wickets": 6
+        }
+      ],
+      "best_venues": {
+        "Nehru Stadium": {
+          "played": 5,
+          "wins": 2
+        },
+        "Eden Gardens": {
+          "played": 1,
+          "wins": 1
+        },
+        "Feroz Shah Kotla": {
+          "played": 1,
+          "wins": 1
+        }
+      }
+    },
+    "Kolkata Knight Riders": {
+      "matches": 251,
+      "wins": 131,
+      "losses": 120,
+      "win_rate": 0.5219,
+      "seasons": [
+        "2007/08",
+        "2009",
+        "2009/10",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020/21",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 156.7,
+      "top_batters": [
+        {
+          "name": "RV Uthappa",
+          "runs": 4954
+        },
+        {
+          "name": "KD Karthik",
+          "runs": 4843
+        },
+        {
+          "name": "G Gambhir",
+          "runs": 4217
+        },
+        {
+          "name": "YK Pathan",
+          "runs": 3222
+        },
+        {
+          "name": "BB McCullum",
+          "runs": 2882
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "SP Narine",
+          "wickets": 200
+        },
+        {
+          "name": "UT Yadav",
+          "wickets": 163
+        },
+        {
+          "name": "AD Russell",
+          "wickets": 125
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "wickets": 90
+        },
+        {
+          "name": "CV Varun",
+          "wickets": 85
+        }
+      ],
+      "best_venues": {
+        "Eden Gardens": {
+          "played": 74,
+          "wins": 45
+        },
+        "Eden Gardens, Kolkata": {
+          "played": 14,
+          "wins": 7
+        },
+        "M Chinnaswamy Stadium": {
+          "played": 11,
+          "wins": 6
+        }
+      }
+    },
+    "Lucknow Super Giants": {
+      "matches": 43,
+      "wins": 24,
+      "losses": 19,
+      "win_rate": 0.5581,
+      "seasons": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 170.7,
+      "top_batters": [
+        {
+          "name": "MP Stoinis",
+          "runs": 1866
+        },
+        {
+          "name": "N Pooran",
+          "runs": 1769
+        },
+        {
+          "name": "DJ Hooda",
+          "runs": 1466
+        },
+        {
+          "name": "A Badoni",
+          "runs": 634
+        },
+        {
+          "name": "KR Mayers",
+          "runs": 379
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "Ravi Bishnoi",
+          "wickets": 68
+        },
+        {
+          "name": "Mohsin Khan",
+          "wickets": 27
+        },
+        {
+          "name": "Yash Thakur",
+          "wickets": 27
+        },
+        {
+          "name": "Naveen-ul-Haq",
+          "wickets": 26
+        },
+        {
+          "name": "MA Wood",
+          "wickets": 11
+        }
+      ],
+      "best_venues": {
+        "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+          "played": 13,
+          "wins": 7
+        },
+        "Dr DY Patil Sports Academy, Mumbai": {
+          "played": 4,
+          "wins": 3
+        },
+        "Wankhede Stadium, Mumbai": {
+          "played": 5,
+          "wins": 3
+        }
+      }
+    },
+    "Mumbai Indians": {
+      "matches": 261,
+      "wins": 144,
+      "losses": 117,
+      "win_rate": 0.5517,
+      "seasons": [
+        "2007/08",
+        "2009",
+        "2009/10",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020/21",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 161.6,
+      "top_batters": [
+        {
+          "name": "RG Sharma",
+          "runs": 6630
+        },
+        {
+          "name": "AT Rayudu",
+          "runs": 4348
+        },
+        {
+          "name": "SA Yadav",
+          "runs": 3594
+        },
+        {
+          "name": "KA Pollard",
+          "runs": 3437
+        },
+        {
+          "name": "Q de Kock",
+          "runs": 3160
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "SL Malinga",
+          "wickets": 188
+        },
+        {
+          "name": "JJ Bumrah",
+          "wickets": 182
+        },
+        {
+          "name": "Harbhajan Singh",
+          "wickets": 161
+        },
+        {
+          "name": "MM Patel",
+          "wickets": 82
+        },
+        {
+          "name": "KA Pollard",
+          "wickets": 81
+        }
+      ],
+      "best_venues": {
+        "Wankhede Stadium": {
+          "played": 67,
+          "wins": 42
+        },
+        "Eden Gardens": {
+          "played": 13,
+          "wins": 10
+        },
+        "Wankhede Stadium, Mumbai": {
+          "played": 18,
+          "wins": 10
+        }
+      }
+    },
+    "Pune Warriors": {
+      "matches": 45,
+      "wins": 12,
+      "losses": 33,
+      "win_rate": 0.2667,
+      "seasons": [
+        "2011",
+        "2012",
+        "2013"
+      ],
+      "avg_score": 141.3,
+      "top_batters": [
+        {
+          "name": "AD Mathews",
+          "runs": 724
+        },
+        {
+          "name": "JD Ryder",
+          "runs": 604
+        },
+        {
+          "name": "M Manhas",
+          "runs": 514
+        },
+        {
+          "name": "MN Samuels",
+          "runs": 161
+        },
+        {
+          "name": "LJ Wright",
+          "runs": 106
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "R Sharma",
+          "wickets": 42
+        },
+        {
+          "name": "WD Parnell",
+          "wickets": 40
+        },
+        {
+          "name": "AD Mathews",
+          "wickets": 28
+        },
+        {
+          "name": "AC Thomas",
+          "wickets": 16
+        },
+        {
+          "name": "JD Ryder",
+          "wickets": 11
+        }
+      ],
+      "best_venues": {
+        "Subrata Roy Sahara Stadium": {
+          "played": 15,
+          "wins": 4
+        },
+        "Dr DY Patil Sports Academy": {
+          "played": 7,
+          "wins": 2
+        },
+        "Feroz Shah Kotla": {
+          "played": 1,
+          "wins": 1
+        }
+      }
+    },
+    "Punjab Kings": {
+      "matches": 246,
+      "wins": 112,
+      "losses": 134,
+      "win_rate": 0.4553,
+      "seasons": [
+        "2007/08",
+        "2009",
+        "2009/10",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020/21",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 161.0,
+      "top_batters": [
+        {
+          "name": "KL Rahul",
+          "runs": 4689
+        },
+        {
+          "name": "WP Saha",
+          "runs": 2934
+        },
+        {
+          "name": "DA Miller",
+          "runs": 2924
+        },
+        {
+          "name": "GJ Maxwell",
+          "runs": 2772
+        },
+        {
+          "name": "Yuvraj Singh",
+          "runs": 2754
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "PP Chawla",
+          "wickets": 201
+        },
+        {
+          "name": "Sandeep Sharma",
+          "wickets": 153
+        },
+        {
+          "name": "Mohammed Shami",
+          "wickets": 144
+        },
+        {
+          "name": "P Kumar",
+          "wickets": 102
+        },
+        {
+          "name": "Arshdeep Singh",
+          "wickets": 84
+        }
+      ],
+      "best_venues": {
+        "Punjab Cricket Association Stadium, Mohali": {
+          "played": 35,
+          "wins": 18
+        },
+        "Punjab Cricket Association IS Bindra Stadium": {
+          "played": 10,
+          "wins": 8
+        },
+        "Dubai International Cricket Stadium": {
+          "played": 11,
+          "wins": 7
+        }
+      }
+    },
+    "Rajasthan Royals": {
+      "matches": 219,
+      "wins": 112,
+      "losses": 107,
+      "win_rate": 0.5114,
+      "seasons": [
+        "2007/08",
+        "2009",
+        "2009/10",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2018",
+        "2019",
+        "2020/21",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 157.9,
+      "top_batters": [
+        {
+          "name": "AM Rahane",
+          "runs": 4642
+        },
+        {
+          "name": "SV Samson",
+          "runs": 4419
+        },
+        {
+          "name": "SR Watson",
+          "runs": 3880
+        },
+        {
+          "name": "JC Buttler",
+          "runs": 3583
+        },
+        {
+          "name": "SPD Smith",
+          "runs": 2495
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "TA Boult",
+          "wickets": 128
+        },
+        {
+          "name": "JD Unadkat",
+          "wickets": 109
+        },
+        {
+          "name": "SR Watson",
+          "wickets": 107
+        },
+        {
+          "name": "DS Kulkarni",
+          "wickets": 91
+        },
+        {
+          "name": "JP Faulkner",
+          "wickets": 76
+        }
+      ],
+      "best_venues": {
+        "Sawai Mansingh Stadium": {
+          "played": 47,
+          "wins": 32
+        },
+        "Sardar Patel Stadium, Motera": {
+          "played": 12,
+          "wins": 7
+        },
+        "Sheikh Zayed Stadium": {
+          "played": 8,
+          "wins": 6
+        }
+      }
+    },
+    "Rising Pune Supergiants": {
+      "matches": 30,
+      "wins": 15,
+      "losses": 15,
+      "win_rate": 0.5,
+      "seasons": [
+        "2016",
+        "2017"
+      ],
+      "avg_score": 151.1,
+      "top_batters": [
+        {
+          "name": "UT Khawaja",
+          "runs": 127
+        },
+        {
+          "name": "PSP Handscomb",
+          "runs": 6
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "A Zampa",
+          "wickets": 30
+        },
+        {
+          "name": "SM Boland",
+          "wickets": 3
+        }
+      ],
+      "best_venues": {
+        "Maharashtra Cricket Association Stadium": {
+          "played": 11,
+          "wins": 5
+        },
+        "Wankhede Stadium": {
+          "played": 3,
+          "wins": 3
+        },
+        "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium": {
+          "played": 3,
+          "wins": 2
+        }
+      }
+    },
+    "Royal Challengers Bangalore": {
+      "matches": 237,
+      "wins": 116,
+      "losses": 121,
+      "win_rate": 0.4895,
+      "seasons": [
+        "2007/08",
+        "2009",
+        "2009/10",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020/21",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "avg_score": 157.1,
+      "top_batters": [
+        {
+          "name": "V Kohli",
+          "runs": 8014
+        },
+        {
+          "name": "AB de Villiers",
+          "runs": 5181
+        },
+        {
+          "name": "CH Gayle",
+          "runs": 4997
+        },
+        {
+          "name": "D Padikkal",
+          "runs": 1559
+        },
+        {
+          "name": "TM Dilshan",
+          "runs": 1153
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "YS Chahal",
+          "wickets": 213
+        },
+        {
+          "name": "HV Patel",
+          "wickets": 151
+        },
+        {
+          "name": "R Vinay Kumar",
+          "wickets": 127
+        },
+        {
+          "name": "Z Khan",
+          "wickets": 119
+        },
+        {
+          "name": "Mohammed Siraj",
+          "wickets": 96
+        }
+      ],
+      "best_venues": {
+        "M Chinnaswamy Stadium": {
+          "played": 59,
+          "wins": 29
+        },
+        "Dubai International Cricket Stadium": {
+          "played": 12,
+          "wins": 8
+        },
+        "M.Chinnaswamy Stadium": {
+          "played": 14,
+          "wins": 8
+        }
+      }
+    },
+    "Royal Challengers Bengaluru": {
+      "matches": 15,
+      "wins": 7,
+      "losses": 8,
+      "win_rate": 0.4667,
+      "seasons": [
+        "2024"
+      ],
+      "avg_score": 195.3,
+      "top_batters": [
+        {
+          "name": "WG Jacks",
+          "runs": 230
+        },
+        {
+          "name": "Swapnil Singh",
+          "runs": 51
+        },
+        {
+          "name": "Saurav Chauhan",
+          "runs": 18
+        },
+        {
+          "name": "RJW Topley",
+          "runs": 3
+        },
+        {
+          "name": "Mayank Dagar",
+          "runs": 0
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "Yash Dayal",
+          "wickets": 31
+        },
+        {
+          "name": "Swapnil Singh",
+          "wickets": 7
+        },
+        {
+          "name": "RJW Topley",
+          "wickets": 5
+        },
+        {
+          "name": "Mayank Dagar",
+          "wickets": 2
+        },
+        {
+          "name": "WG Jacks",
+          "wickets": 2
+        }
+      ],
+      "best_venues": {
+        "M Chinnaswamy Stadium, Bengaluru": {
+          "played": 7,
+          "wins": 4
+        },
+        "Himachal Pradesh Cricket Association Stadium, Dharamsala": {
+          "played": 1,
+          "wins": 1
+        },
+        "Narendra Modi Stadium, Ahmedabad": {
+          "played": 2,
+          "wins": 1
+        }
+      }
+    },
+    "Sunrisers Hyderabad": {
+      "matches": 182,
+      "wins": 88,
+      "losses": 94,
+      "win_rate": 0.4835,
+      "seasons": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020/21",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "avg_score": 159.7,
+      "top_batters": [
+        {
+          "name": "S Dhawan",
+          "runs": 6769
+        },
+        {
+          "name": "DA Warner",
+          "runs": 6567
+        },
+        {
+          "name": "MK Pandey",
+          "runs": 3859
+        },
+        {
+          "name": "RA Tripathi",
+          "runs": 2236
+        },
+        {
+          "name": "KS Williamson",
+          "runs": 2132
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "B Kumar",
+          "wickets": 195
+        },
+        {
+          "name": "Rashid Khan",
+          "wickets": 157
+        },
+        {
+          "name": "DW Steyn",
+          "wickets": 105
+        },
+        {
+          "name": "KV Sharma",
+          "wickets": 82
+        },
+        {
+          "name": "T Natarajan",
+          "wickets": 76
+        }
+      ],
+      "best_venues": {
+        "Rajiv Gandhi International Stadium, Uppal": {
+          "played": 30,
+          "wins": 20
+        },
+        "Rajiv Gandhi International Stadium": {
+          "played": 14,
+          "wins": 10
+        },
+        "Dubai International Cricket Stadium": {
+          "played": 13,
+          "wins": 7
+        }
+      }
+    }
+  },
+  "h2h": {
+    "('Kolkata Knight Riders', 'Royal Challengers Bangalore')": {
+      "Royal Challengers Bangalore": 14,
+      "Kolkata Knight Riders": 18,
+      "total": 32
+    },
+    "('Chennai Super Kings', 'Punjab Kings')": {
+      "Punjab Kings": 14,
+      "Chennai Super Kings": 16,
+      "total": 30
+    },
+    "('Delhi Capitals', 'Rajasthan Royals')": {
+      "Delhi Capitals": 14,
+      "Rajasthan Royals": 15,
+      "total": 29
+    },
+    "('Mumbai Indians', 'Royal Challengers Bangalore')": {
+      "Mumbai Indians": 18,
+      "Royal Challengers Bangalore": 14,
+      "total": 32
+    },
+    "('Deccan Chargers', 'Kolkata Knight Riders')": {
+      "Kolkata Knight Riders": 7,
+      "Deccan Chargers": 2,
+      "total": 9
+    },
+    "('Punjab Kings', 'Rajasthan Royals')": {
+      "Rajasthan Royals": 16,
+      "Punjab Kings": 12,
+      "total": 28
+    },
+    "('Deccan Chargers', 'Delhi Capitals')": {
+      "Deccan Chargers": 4,
+      "Delhi Capitals": 7,
+      "total": 11
+    },
+    "('Chennai Super Kings', 'Mumbai Indians')": {
+      "Chennai Super Kings": 17,
+      "Mumbai Indians": 20,
+      "total": 37
+    },
+    "('Deccan Chargers', 'Rajasthan Royals')": {
+      "Deccan Chargers": 2,
+      "Rajasthan Royals": 7,
+      "total": 9
+    },
+    "('Mumbai Indians', 'Punjab Kings')": {
+      "Punjab Kings": 15,
+      "Mumbai Indians": 17,
+      "total": 32
+    },
+    "('Rajasthan Royals', 'Royal Challengers Bangalore')": {
+      "Royal Challengers Bangalore": 15,
+      "Rajasthan Royals": 12,
+      "total": 27
+    },
+    "('Chennai Super Kings', 'Kolkata Knight Riders')": {
+      "Chennai Super Kings": 19,
+      "Kolkata Knight Riders": 10,
+      "total": 29
+    },
+    "('Deccan Chargers', 'Mumbai Indians')": {
+      "Mumbai Indians": 6,
+      "Deccan Chargers": 4,
+      "total": 10
+    },
+    "('Delhi Capitals', 'Punjab Kings')": {
+      "Punjab Kings": 17,
+      "Delhi Capitals": 16,
+      "total": 33
+    },
+    "('Chennai Super Kings', 'Royal Challengers Bangalore')": {
+      "Royal Challengers Bangalore": 10,
+      "Chennai Super Kings": 20,
+      "total": 30
+    },
+    "('Kolkata Knight Riders', 'Mumbai Indians')": {
+      "Kolkata Knight Riders": 11,
+      "Mumbai Indians": 23,
+      "total": 34
+    },
+    "('Delhi Capitals', 'Royal Challengers Bangalore')": {
+      "Delhi Capitals": 11,
+      "Royal Challengers Bangalore": 18,
+      "total": 29
+    },
+    "('Deccan Chargers', 'Punjab Kings')": {
+      "Deccan Chargers": 3,
+      "Punjab Kings": 7,
+      "total": 10
+    },
+    "('Kolkata Knight Riders', 'Rajasthan Royals')": {
+      "Rajasthan Royals": 14,
+      "Kolkata Knight Riders": 14,
+      "total": 28
+    },
+    "('Chennai Super Kings', 'Delhi Capitals')": {
+      "Chennai Super Kings": 19,
+      "Delhi Capitals": 11,
+      "total": 30
+    },
+    "('Kolkata Knight Riders', 'Punjab Kings')": {
+      "Punjab Kings": 12,
+      "Kolkata Knight Riders": 21,
+      "total": 33
+    },
+    "('Deccan Chargers', 'Royal Challengers Bangalore')": {
+      "Royal Challengers Bangalore": 5,
+      "Deccan Chargers": 6,
+      "total": 11
+    },
+    "('Delhi Capitals', 'Mumbai Indians')": {
+      "Mumbai Indians": 19,
+      "Delhi Capitals": 16,
+      "total": 35
+    },
+    "('Chennai Super Kings', 'Rajasthan Royals')": {
+      "Rajasthan Royals": 13,
+      "Chennai Super Kings": 16,
+      "total": 29
+    },
+    "('Punjab Kings', 'Royal Challengers Bangalore')": {
+      "Royal Challengers Bangalore": 14,
+      "Punjab Kings": 17,
+      "total": 31
+    },
+    "('Chennai Super Kings', 'Deccan Chargers')": {
+      "Chennai Super Kings": 6,
+      "Deccan Chargers": 4,
+      "total": 10
+    },
+    "('Mumbai Indians', 'Rajasthan Royals')": {
+      "Mumbai Indians": 15,
+      "Rajasthan Royals": 14,
+      "total": 29
+    },
+    "('Delhi Capitals', 'Kolkata Knight Riders')": {
+      "Kolkata Knight Riders": 18,
+      "Delhi Capitals": 15,
+      "total": 33
+    },
+    "('Kochi Tuskers Kerala', 'Royal Challengers Bangalore')": {
+      "Kochi Tuskers Kerala": 0,
+      "Royal Challengers Bangalore": 2,
+      "total": 2
+    },
+    "('Pune Warriors', 'Punjab Kings')": {
+      "Pune Warriors": 3,
+      "Punjab Kings": 3,
+      "total": 6
+    },
+    "('Kochi Tuskers Kerala', 'Pune Warriors')": {
+      "Pune Warriors": 1,
+      "Kochi Tuskers Kerala": 0,
+      "total": 1
+    },
+    "('Kochi Tuskers Kerala', 'Mumbai Indians')": {
+      "Mumbai Indians": 0,
+      "Kochi Tuskers Kerala": 1,
+      "total": 1
+    },
+    "('Delhi Capitals', 'Pune Warriors')": {
+      "Pune Warriors": 2,
+      "Delhi Capitals": 3,
+      "total": 5
+    },
+    "('Chennai Super Kings', 'Kochi Tuskers Kerala')": {
+      "Kochi Tuskers Kerala": 1,
+      "Chennai Super Kings": 1,
+      "total": 2
+    },
+    "('Mumbai Indians', 'Pune Warriors')": {
+      "Mumbai Indians": 5,
+      "Pune Warriors": 1,
+      "total": 6
+    },
+    "('Kochi Tuskers Kerala', 'Kolkata Knight Riders')": {
+      "Kolkata Knight Riders": 0,
+      "Kochi Tuskers Kerala": 2,
+      "total": 2
+    },
+    "('Kochi Tuskers Kerala', 'Rajasthan Royals')": {
+      "Rajasthan Royals": 1,
+      "Kochi Tuskers Kerala": 1,
+      "total": 2
+    },
+    "('Chennai Super Kings', 'Pune Warriors')": {
+      "Chennai Super Kings": 4,
+      "Pune Warriors": 2,
+      "total": 6
+    },
+    "('Deccan Chargers', 'Kochi Tuskers Kerala')": {
+      "Kochi Tuskers Kerala": 0,
+      "Deccan Chargers": 1,
+      "total": 1
+    },
+    "('Pune Warriors', 'Royal Challengers Bangalore')": {
+      "Royal Challengers Bangalore": 5,
+      "Pune Warriors": 0,
+      "total": 5
+    },
+    "('Delhi Capitals', 'Kochi Tuskers Kerala')": {
+      "Kochi Tuskers Kerala": 1,
+      "Delhi Capitals": 1,
+      "total": 2
+    },
+    "('Pune Warriors', 'Rajasthan Royals')": {
+      "Rajasthan Royals": 4,
+      "Pune Warriors": 1,
+      "total": 5
+    },
+    "('Deccan Chargers', 'Pune Warriors')": {
+      "Deccan Chargers": 3,
+      "Pune Warriors": 1,
+      "total": 4
+    },
+    "('Kochi Tuskers Kerala', 'Punjab Kings')": {
+      "Kochi Tuskers Kerala": 0,
+      "Punjab Kings": 1,
+      "total": 1
+    },
+    "('Kolkata Knight Riders', 'Pune Warriors')": {
+      "Pune Warriors": 1,
+      "Kolkata Knight Riders": 4,
+      "total": 5
+    },
+    "('Pune Warriors', 'Sunrisers Hyderabad')": {
+      "Sunrisers Hyderabad": 2,
+      "Pune Warriors": 0,
+      "total": 2
+    },
+    "('Royal Challengers Bangalore', 'Sunrisers Hyderabad')": {
+      "Sunrisers Hyderabad": 12,
+      "Royal Challengers Bangalore": 10,
+      "total": 22
+    },
+    "('Delhi Capitals', 'Sunrisers Hyderabad')": {
+      "Delhi Capitals": 11,
+      "Sunrisers Hyderabad": 13,
+      "total": 24
+    },
+    "('Kolkata Knight Riders', 'Sunrisers Hyderabad')": {
+      "Kolkata Knight Riders": 19,
+      "Sunrisers Hyderabad": 9,
+      "total": 28
+    },
+    "('Punjab Kings', 'Sunrisers Hyderabad')": {
+      "Sunrisers Hyderabad": 16,
+      "Punjab Kings": 7,
+      "total": 23
+    },
+    "('Chennai Super Kings', 'Sunrisers Hyderabad')": {
+      "Chennai Super Kings": 15,
+      "Sunrisers Hyderabad": 6,
+      "total": 21
+    },
+    "('Rajasthan Royals', 'Sunrisers Hyderabad')": {
+      "Rajasthan Royals": 9,
+      "Sunrisers Hyderabad": 11,
+      "total": 20
+    },
+    "('Mumbai Indians', 'Sunrisers Hyderabad')": {
+      "Sunrisers Hyderabad": 10,
+      "Mumbai Indians": 13,
+      "total": 23
+    },
+    "('Mumbai Indians', 'Rising Pune Supergiants')": {
+      "Mumbai Indians": 2,
+      "Rising Pune Supergiants": 4,
+      "total": 6
+    },
+    "('Gujarat Lions', 'Punjab Kings')": {
+      "Punjab Kings": 2,
+      "Gujarat Lions": 2,
+      "total": 4
+    },
+    "('Gujarat Lions', 'Rising Pune Supergiants')": {
+      "Gujarat Lions": 3,
+      "Rising Pune Supergiants": 1,
+      "total": 4
+    },
+    "('Gujarat Lions', 'Mumbai Indians')": {
+      "Mumbai Indians": 2,
+      "Gujarat Lions": 2,
+      "total": 4
+    },
+    "('Punjab Kings', 'Rising Pune Supergiants')": {
+      "Punjab Kings": 2,
+      "Rising Pune Supergiants": 2,
+      "total": 4
+    },
+    "('Gujarat Lions', 'Sunrisers Hyderabad')": {
+      "Gujarat Lions": 0,
+      "Sunrisers Hyderabad": 5,
+      "total": 5
+    },
+    "('Rising Pune Supergiants', 'Royal Challengers Bangalore')": {
+      "Rising Pune Supergiants": 2,
+      "Royal Challengers Bangalore": 2,
+      "total": 4
+    },
+    "('Gujarat Lions', 'Royal Challengers Bangalore')": {
+      "Gujarat Lions": 2,
+      "Royal Challengers Bangalore": 3,
+      "total": 5
+    },
+    "('Kolkata Knight Riders', 'Rising Pune Supergiants')": {
+      "Rising Pune Supergiants": 1,
+      "Kolkata Knight Riders": 3,
+      "total": 4
+    },
+    "('Rising Pune Supergiants', 'Sunrisers Hyderabad')": {
+      "Sunrisers Hyderabad": 1,
+      "Rising Pune Supergiants": 3,
+      "total": 4
+    },
+    "('Delhi Capitals', 'Gujarat Lions')": {
+      "Delhi Capitals": 3,
+      "Gujarat Lions": 1,
+      "total": 4
+    },
+    "('Delhi Capitals', 'Rising Pune Supergiants')": {
+      "Delhi Capitals": 2,
+      "Rising Pune Supergiants": 2,
+      "total": 4
+    },
+    "('Gujarat Lions', 'Kolkata Knight Riders')": {
+      "Kolkata Knight Riders": 1,
+      "Gujarat Lions": 3,
+      "total": 4
+    },
+    "('Gujarat Titans', 'Lucknow Super Giants')": {
+      "Lucknow Super Giants": 1,
+      "Gujarat Titans": 4,
+      "total": 5
+    },
+    "('Chennai Super Kings', 'Lucknow Super Giants')": {
+      "Chennai Super Kings": 1,
+      "Lucknow Super Giants": 3,
+      "total": 4
+    },
+    "('Delhi Capitals', 'Gujarat Titans')": {
+      "Gujarat Titans": 2,
+      "Delhi Capitals": 3,
+      "total": 5
+    },
+    "('Lucknow Super Giants', 'Sunrisers Hyderabad')": {
+      "Lucknow Super Giants": 3,
+      "Sunrisers Hyderabad": 1,
+      "total": 4
+    },
+    "('Delhi Capitals', 'Lucknow Super Giants')": {
+      "Delhi Capitals": 2,
+      "Lucknow Super Giants": 3,
+      "total": 5
+    },
+    "('Gujarat Titans', 'Punjab Kings')": {
+      "Punjab Kings": 2,
+      "Gujarat Titans": 3,
+      "total": 5
+    },
+    "('Lucknow Super Giants', 'Rajasthan Royals')": {
+      "Rajasthan Royals": 4,
+      "Lucknow Super Giants": 1,
+      "total": 5
+    },
+    "('Gujarat Titans', 'Sunrisers Hyderabad')": {
+      "Gujarat Titans": 3,
+      "Sunrisers Hyderabad": 1,
+      "total": 4
+    },
+    "('Gujarat Titans', 'Rajasthan Royals')": {
+      "Gujarat Titans": 5,
+      "Rajasthan Royals": 1,
+      "total": 6
+    },
+    "('Lucknow Super Giants', 'Mumbai Indians')": {
+      "Lucknow Super Giants": 5,
+      "Mumbai Indians": 1,
+      "total": 6
+    },
+    "('Chennai Super Kings', 'Gujarat Titans')": {
+      "Chennai Super Kings": 3,
+      "Gujarat Titans": 4,
+      "total": 7
+    },
+    "('Lucknow Super Giants', 'Royal Challengers Bangalore')": {
+      "Royal Challengers Bangalore": 3,
+      "Lucknow Super Giants": 1,
+      "total": 4
+    },
+    "('Gujarat Titans', 'Kolkata Knight Riders')": {
+      "Gujarat Titans": 2,
+      "Kolkata Knight Riders": 1,
+      "total": 3
+    },
+    "('Lucknow Super Giants', 'Punjab Kings')": {
+      "Lucknow Super Giants": 3,
+      "Punjab Kings": 1,
+      "total": 4
+    },
+    "('Gujarat Titans', 'Royal Challengers Bangalore')": {
+      "Royal Challengers Bangalore": 1,
+      "Gujarat Titans": 2,
+      "total": 3
+    },
+    "('Gujarat Titans', 'Mumbai Indians')": {
+      "Mumbai Indians": 2,
+      "Gujarat Titans": 3,
+      "total": 5
+    },
+    "('Kolkata Knight Riders', 'Lucknow Super Giants')": {
+      "Lucknow Super Giants": 3,
+      "Kolkata Knight Riders": 2,
+      "total": 5
+    },
+    "('Chennai Super Kings', 'Royal Challengers Bengaluru')": {
+      "Royal Challengers Bengaluru": 1,
+      "Chennai Super Kings": 1,
+      "total": 2
+    },
+    "('Punjab Kings', 'Royal Challengers Bengaluru')": {
+      "Punjab Kings": 0,
+      "Royal Challengers Bengaluru": 2,
+      "total": 2
+    },
+    "('Kolkata Knight Riders', 'Royal Challengers Bengaluru')": {
+      "Royal Challengers Bengaluru": 0,
+      "Kolkata Knight Riders": 2,
+      "total": 2
+    },
+    "('Lucknow Super Giants', 'Royal Challengers Bengaluru')": {
+      "Lucknow Super Giants": 1,
+      "Royal Challengers Bengaluru": 0,
+      "total": 1
+    },
+    "('Rajasthan Royals', 'Royal Challengers Bengaluru')": {
+      "Royal Challengers Bengaluru": 0,
+      "Rajasthan Royals": 2,
+      "total": 2
+    },
+    "('Mumbai Indians', 'Royal Challengers Bengaluru')": {
+      "Royal Challengers Bengaluru": 0,
+      "Mumbai Indians": 1,
+      "total": 1
+    },
+    "('Royal Challengers Bengaluru', 'Sunrisers Hyderabad')": {
+      "Sunrisers Hyderabad": 1,
+      "Royal Challengers Bengaluru": 1,
+      "total": 2
+    },
+    "('Gujarat Titans', 'Royal Challengers Bengaluru')": {
+      "Gujarat Titans": 0,
+      "Royal Challengers Bengaluru": 2,
+      "total": 2
+    },
+    "('Delhi Capitals', 'Royal Challengers Bengaluru')": {
+      "Royal Challengers Bengaluru": 1,
+      "Delhi Capitals": 0,
+      "total": 1
+    }
+  }
+}

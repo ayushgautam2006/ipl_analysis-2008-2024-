@@ -1,85 +1,147 @@
-# IPL Analysis Project
+# IPL Analysis & Match Predictor
 
-Comprehensive analysis of IPL (Indian Premier League) cricket data from 2008-2024.
+Comprehensive analysis and AI-powered match winner prediction for IPL (Indian Premier League) cricket data from 2008–2024.
 
 ## Project Structure
 
 ```
 ipl_analysis/
-├── Data/                          # Raw data files
-│   ├── deliveries.csv            # Match deliveries (180K+ records)
-│   ├── matches.csv               # Match metadata & results
-│   └── deliveries_cleaned.csv    # Cleaned deliveries dataset
+├── Data/                           # Raw data files
+│   ├── matches.csv                 # Match metadata & results (1090 matches)
+│   ├── deliveries.csv              # Ball-by-ball data (260K+ records)
+│   └── deliveries_cleaned.csv      # Cleaned deliveries dataset
 │
-├── Output_Files/                 # Analysis outputs & exports
-│   ├── batsmen_stats.csv         # Top batsmen statistics
-│   ├── bowler_stats.csv          # Top bowlers statistics
-│   ├── team_stats.csv            # Team performance metrics
-│   ├── phase_stats.csv           # Phase-wise analysis (Powerplay, Middle, Death)
-│   ├── dismissal_summary.csv     # Dismissal patterns
-│   ├── team_venue_performance.csv # Team performance by venue
-│   ├── venue_summary.csv         # Venue statistics
-│   └── ipl_comprehensive_dashboard.png # 9-panel visualization
+├── predictor/                      # ML model files
+│   ├── train_model.py              # Feature engineering + model training script
+│   ├── model.pkl                   # Trained Random Forest model
+│   ├── encoder.pkl                 # Label encoders & team stats lookup
+│   └── team_stats.json             # Pre-computed team analytics
 │
-├── notebooks/                     # Jupyter notebooks
-│   └── ipl_insights.ipynb        # Main analysis notebook (42 cells)
+├── app/                            # Flask web application
+│   ├── app.py                      # Backend API (predict, meta, team-stats)
+│   ├── templates/
+│   │   └── index.html              # Frontend UI
+│   └── static/
+│       ├── style.css               # Dark glassmorphism theme
+│       └── script.js               # Charts, team selection, API calls
 │
-├── README.md                      # This file
-└── .venv/                        # Python virtual environment
+├── notebooks/
+│   └── ipl_insights.ipynb          # EDA notebook (42 cells)
+│
+├── Output_Files/                   # Analysis outputs & exports
+├── Dockerfile                      # Docker deployment config
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
 ```
-
-## Quick Start
-
-### Setup
-```bash
-# Activate virtual environment
-.\.venv\Scripts\Activate.ps1
-
-# Install dependencies (if needed)
-pip install pandas numpy matplotlib seaborn pillow
-```
-
-### Run Analysis
-```bash
-jupyter notebook notebooks/ipl_insights.ipynb
-```
-
-## Analysis Sections
-
-1. **Data Cleaning**: Type conversion, missing values, duplicates, validation
-2. **Venue Analysis**: Performance by location, pitch characteristics
-3. **Player Analysis**: Top batsmen (runs, strike rate), Top bowlers (wickets, economy)
-4. **Team Performance**: Win rates, statistics, head-to-head records
-5. **Innings Breakdown**: Phase-wise analysis (Powerplay 0-5, Middle 6-15, Death 16-19)
-6. **Dismissal Patterns**: Methods, vulnerable players, fielding stats
-7. **Comprehensive Dashboard**: 9-panel visualization summary
-8. **Data Exports**: 8 CSV files with detailed statistics
-
-## Key Insights
-
-- **Total Matches Analyzed**: 1000+
-- **Total Deliveries**: 180,000+
-- **Teams**: 19 IPL franchises
-- **Venues**: 58 unique cricket grounds
-- **Players**: 500+ batsmen, 500+ bowlers
-
-## Output Files
-
-All analysis results are in `Output_Files/`:
-- **CSV Files**: Ready for further analysis in Excel/Python
-- **Dashboard PNG**: Visual summary of all analyses
-- **Venue Files**: Detailed venue-specific performance
-
-## Requirements
-
-- Python 3.13.3+
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- Pillow
 
 ---
 
-*Project completed: May 2026*
-*Data: IPL 2008-2024*
+## Running the Match Predictor Web App
+
+### Prerequisites
+
+- Python 3.10+
+- `pip`
+
+### 1. Install dependencies
+
+```powershell
+pip install -r requirements.txt
+```
+
+### 2. Train the model
+
+> Skip this step if `predictor/model.pkl` already exists.
+
+```powershell
+python predictor/train_model.py
+```
+
+This reads `Data/matches.csv` and `Data/deliveries.csv`, trains a Random Forest classifier, and saves `model.pkl`, `encoder.pkl`, and `team_stats.json` into the `predictor/` folder.
+
+### 3. Start the web app
+
+```powershell
+python app/app.py
+```
+
+### 4. Open in browser
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## Running with Docker
+
+```powershell
+# Build and start
+docker-compose up -d
+
+# Open in browser
+http://localhost:5000
+
+# Stop
+docker-compose down
+```
+
+> The Docker image bundles the pre-trained model files. Re-run `docker-compose up -d --build` after retraining the model locally.
+
+---
+
+## How to Use the Predictor
+
+1. Select **Team 1** and **Team 2** from the dropdowns
+2. Optionally choose a **Venue**, **Toss Winner**, and **Toss Decision** for a more precise prediction
+3. Click **Predict Winner**
+4. View the predicted winner, win probability bars, head-to-head record, and full team analysis
+
+---
+
+## Analysis Sections (Notebook)
+
+To run the EDA notebook:
+
+```powershell
+jupyter notebook notebooks/ipl_insights.ipynb
+```
+
+Sections covered:
+1. **Data Cleaning** — Type conversion, missing values, duplicates
+2. **Venue Analysis** — Performance by location, pitch characteristics
+3. **Player Analysis** — Top batters (runs, SR), Top bowlers (wickets, economy)
+4. **Team Performance** — Win rates, head-to-head records
+5. **Innings Breakdown** — Phase-wise analysis (Powerplay / Middle / Death)
+6. **Dismissal Patterns** — Methods, vulnerable players, fielding stats
+7. **Comprehensive Dashboard** — 9-panel visualization summary
+
+---
+
+## Requirements
+
+```
+flask>=3.0.0
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+gunicorn>=21.2.0
+```
+
+---
+
+## Key Stats
+
+| Metric | Value |
+|---|---|
+| Matches analyzed | 1,090 |
+| Deliveries | 260,000+ |
+| Teams | 16 IPL franchises |
+| Venues | 58 unique grounds |
+| Model accuracy | ~55.5% |
+| Model type | Random Forest Classifier |
+
+---
+
+*Data: IPL 2008–2024*
