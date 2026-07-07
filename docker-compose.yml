@@ -1,0 +1,7 @@
+services:
+  ipl-predictor:
+    build: .
+    container_name: ipl_predictor
+    ports:
+      - "5000:5000"
+    restart: unless-stopped

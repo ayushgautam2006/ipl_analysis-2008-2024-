@@ -1,0 +1,12 @@
+Data/
+.venv/
+.git/
+.ipynb_checkpoints/
+notebooks/
+Output_Files/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.log
+.env
+train_model.ipynb
