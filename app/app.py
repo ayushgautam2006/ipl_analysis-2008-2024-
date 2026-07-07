@@ -7,10 +7,9 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template
 
 BASE_DIR    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PRED_DIR    = os.path.join(BASE_DIR, "predictor")
-MODEL_PKL   = os.path.join(PRED_DIR, "model.pkl")
-ENCODER_PKL = os.path.join(PRED_DIR, "encoder.pkl")
-STATS_JSON  = os.path.join(PRED_DIR, "team_stats.json")
+MODEL_PKL   = os.path.join(BASE_DIR, "model.pkl")
+ENCODER_PKL = os.path.join(BASE_DIR, "encoder.pkl")
+STATS_JSON  = os.path.join(BASE_DIR, "team_stats.json")
 
 app = Flask(__name__)
 

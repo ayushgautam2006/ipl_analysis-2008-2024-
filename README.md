@@ -11,12 +11,6 @@ ipl_analysis/
 │   ├── deliveries.csv              # Ball-by-ball data (260K+ records)
 │   └── deliveries_cleaned.csv      # Cleaned deliveries dataset
 │
-├── predictor/                      # ML model files
-│   ├── train_model.py              # Feature engineering + model training script
-│   ├── model.pkl                   # Trained Random Forest model
-│   ├── encoder.pkl                 # Label encoders & team stats lookup
-│   └── team_stats.json             # Pre-computed team analytics
-│
 ├── app/                            # Flask web application
 │   ├── app.py                      # Backend API (predict, meta, team-stats)
 │   ├── templates/
@@ -28,6 +22,10 @@ ipl_analysis/
 ├── notebooks/
 │   └── ipl_insights.ipynb          # EDA notebook (42 cells)
 │
+├── train_model.ipynb               # Feature engineering + Model training notebook
+├── model.pkl                       # Trained Random Forest model (generated)
+├── encoder.pkl                     # Label encoders & lookup (generated)
+├── team_stats.json                 # Pre-computed team analytics (generated)
 ├── Output_Files/                   # Analysis outputs & exports
 ├── Dockerfile                      # Docker deployment config
 ├── docker-compose.yml
@@ -54,11 +52,13 @@ pip install -r requirements.txt
 
 > Skip this step if `predictor/model.pkl` already exists.
 
+Open and run all cells in the training notebook:
+
 ```powershell
-python predictor/train_model.py
+jupyter notebook train_model.ipynb
 ```
 
-This reads `Data/matches.csv` and `Data/deliveries.csv`, trains a Random Forest classifier, and saves `model.pkl`, `encoder.pkl`, and `team_stats.json` into the `predictor/` folder.
+This reads `Data/matches.csv` and `Data/deliveries.csv`, trains a Random Forest classifier, and saves `model.pkl`, `encoder.pkl`, and `team_stats.json` directly in the project root directory.
 
 ### 3. Start the web app
 
